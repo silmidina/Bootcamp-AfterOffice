@@ -14,6 +14,7 @@ function bagi(a, b) {
 }
 
 // Tampilkan menu
+console.log("=== Kalkulator Sederhana ===");
 console.log("Pilih Operasi:");
 console.log("1. Penjumlahan");
 console.log("2. Pengurangan");

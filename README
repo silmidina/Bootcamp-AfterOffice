@@ -1,0 +1,42 @@
+# Tugas JavaScript: Klasifikasi Usia & Kalkulator Sederhana
+
+## 📌 Deskripsi Tugas
+
+Tugas ini mencakup dua program JavaScript:
+
+### 1. Klasifikasi Usia
+Program ini mengklasifikasikan usia beberapa orang ke dalam empat kategori:
+- **Anak-anak**: 0–12 tahun
+- **Remaja**: 13–17 tahun
+- **Dewasa**: 18–59 tahun
+- **Lansia**: 60+ tahun
+
+Program menerima array berisi usia, lalu menghitung dan menampilkan jumlah orang di setiap kategori menggunakan:
+- Gunakan function untuk menentukan kategori usia
+- Gunakan loop untuk mengumpulkan data usia
+- Gunakan if-else atau switch-case untuk klasifikasi
+
+### 2. Kalkulator Sederhana
+Program ini meminta input dari pengguna untuk memilih salah satu dari empat operasi matematika:
+- Penjumlahan
+- Pengurangan
+- Perkalian
+- Pembagian
+
+Program kemudian meminta dua angka, melakukan perhitungan, dan menampilkan hasil. Menggunakan:
+- Gunakan switch-case untuk menentukan operasi
+- Gunakan function untuk melakukan operasi matematika
+- Konversi input ke number (parseInt/parseFloat)
+readline (karena dijalankan di Node.js terminal)
+
+---
+
+## ▶️ Cara Menjalankan
+
+### Persiapan:
+Pastikan Node.js sudah terinstall. Cek dengan perintah:
+```bash
+node -v
+1. node klasifikasiUsia.js
+2. node kalkulatorSederhana.js
+
