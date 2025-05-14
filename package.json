@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2",
+    "supertest": "^7.1.1"
+  },
+  "name": "afteroffice-js",
+  "version": "1.0.0",
+  "description": "Tugas ini mencakup dua program JavaScript:",
+  "main": "app.js",
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
