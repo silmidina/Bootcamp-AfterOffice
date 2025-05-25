@@ -1,0 +1,6 @@
+# Abaikan file environment
+.env.development
+.env.staging
+
+# Abaikan folder node_modules
+/node_modules
