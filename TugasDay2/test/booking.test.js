@@ -39,7 +39,7 @@ describe("End-to-End Booking API", () => {
       .set("Accept", "application/json")
       .send(bookingPayload);
 
-    console.log("Response POST Booking:", res.body); // Debug log
+    console.log("Response POST Booking:", res.body);
 
     expect(res).to.have.status(200);
     expect(res.body).to.have.property("bookingid");
@@ -57,7 +57,7 @@ describe("End-to-End Booking API", () => {
       .get(`/booking/${bookingId}`)
       .set("Accept", "application/json");
 
-    console.log("Response GET Booking:", res.body); // Debug log
+    console.log("Response GET Booking:", res.body);
 
     expect(res).to.have.status(200);
     expect(res.body.firstname).to.equal(bookingPayload.firstname);
@@ -71,9 +71,8 @@ describe("End-to-End Booking API", () => {
       .set("Accept", "application/json")
       .set("Cookie", `token=${token}`);
 
-    console.log("Response DELETE Booking:", res.status); // Debug log
+    console.log("Response DELETE Booking:", res.status); 
 
-    // Sesuaikan status tergantung dari API kamu, bisa 201 atau 200
     expect(res).to.have.status(201); 
   });
 });
