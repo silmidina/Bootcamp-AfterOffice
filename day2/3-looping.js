@@ -71,17 +71,19 @@ if (usia <=18) {
 }
 
 //function
-function umur({a,b,c,d}) {
+// function umur({a,b,c,d}) {
+// function umur(integer) {
   if (integer <=18) {
   console.log('anak-anak');
 } else {
   console.log('dewasa');
   }
-  console.log(a);
-  console.log(b);
-  console.log(c);
-  console.log(d);
-  
+  // console.log(a);
+  // console.log(b);
+  // console.log(c);
+  // console.log(d);
+
+  return integer*2;
   // return 'bisa'
 }
 
@@ -89,6 +91,7 @@ function umur({a,b,c,d}) {
 
 // umur(usia)
 let quiz = umur({a,b,c,d})
+quiz = umur(2)
 console.log(quiz);
 
 // console.log(umur(usia));
